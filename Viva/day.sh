@@ -4,14 +4,12 @@ i=1
 for day in Mon Tue Wed Thu Fri Sat Sun
 do
 	if [ "$day" = "Sun" ]
-	then
+	then 
 		wage=550
-		week="weekend"
-	else
+		echo "Day: $i weekend, wage: $wage"
+	else 
 		wage=350
-		week="weekday"
+		echo "Day: $i weekday, wage: $wage"
 	fi
-	
-	echo "Day $i: $day ($week), wage: $wage"
 	i=$((i+1))
 done
