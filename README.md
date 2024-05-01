@@ -41,5 +41,16 @@ IMP terms
 
 #Solution of critical section problem
 1. Lock variable
- Lock=0 -> Critical section vacant
- Lock=1 -> Critical section occupied
+Lock=0 -> Critical section vacant
+Lock=1 -> Critical section occupied
+
+test&set -> solution of lock var
+
+2. Interrupt disabling
+Machine Instruction approach
+Compare and swap(*word, testval, newval)
+exchange(*register, *memory)
+busy waiting or spin waiting
+
+3. Common concurrency mechanism
+
