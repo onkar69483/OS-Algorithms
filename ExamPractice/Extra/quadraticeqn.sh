@@ -33,4 +33,3 @@ else
     echo "Root 1: $realPart + ${imagPart}i"
     echo "Root 2: $realPart - ${imagPart}i"
 fi
-
